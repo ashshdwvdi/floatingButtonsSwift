@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FD87F72E2046A838009223EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87F72D2046A838009223EA /* AppDelegate.swift */; };
 		FD87F7302046A838009223EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87F72F2046A838009223EA /* ViewController.swift */; };
-		FD87F7332046A838009223EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD87F7312046A838009223EA /* Main.storyboard */; };
 		FD87F7352046A839009223EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD87F7342046A839009223EA /* Assets.xcassets */; };
 		FD87F7382046A839009223EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD87F7362046A839009223EA /* LaunchScreen.storyboard */; };
 		FD87F7432046A839009223EA /* floatingMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87F7422046A839009223EA /* floatingMenuTests.swift */; };
@@ -37,7 +36,6 @@
 		FD87F72A2046A838009223EA /* floatingMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = floatingMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD87F72D2046A838009223EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD87F72F2046A838009223EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD87F7322046A838009223EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD87F7342046A839009223EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD87F7372046A839009223EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD87F7392046A839009223EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				FD87F72D2046A838009223EA /* AppDelegate.swift */,
 				FD87F72F2046A838009223EA /* ViewController.swift */,
-				FD87F7312046A838009223EA /* Main.storyboard */,
 				FD87F7342046A839009223EA /* Assets.xcassets */,
 				FD87F7362046A839009223EA /* LaunchScreen.storyboard */,
 				FD87F7392046A839009223EA /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				FD87F7382046A839009223EA /* LaunchScreen.storyboard in Resources */,
 				FD87F7352046A839009223EA /* Assets.xcassets in Resources */,
-				FD87F7332046A838009223EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD87F7312046A838009223EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD87F7322046A838009223EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD87F7362046A839009223EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24QTA68R79;
 				INFOPLIST_FILE = floatingMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doodleblue.floatingMenu;
@@ -441,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24QTA68R79;
 				INFOPLIST_FILE = floatingMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doodleblue.floatingMenu;
